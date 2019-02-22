@@ -1,0 +1,57 @@
+.finger-box{
+    width: 5.25rem;
+    height: 3.33rem;
+    background: #ffffff;
+    border-radius: 0.1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+}
+.finger-a{
+    width: 5.25rem;
+    height: 0.74rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.1);
+    font-size: 0.37rem;
+    font-weight: 200;
+    color: rgb(14,207,152);
+    line-height: 0.74rem;
+    text-align: center;
+    position: relative;
+}
+.finger-a i{
+    position: absolute;
+    left: 0.3rem;
+}
+.finger-b{
+    width: 5.25rem;
+    height: 0.67rem;
+    border-bottom: 0.01rem solid rgba(0,0,0,0.1);
+    font-size: 0.3rem;
+    color: rgb(14,207,152);
+    text-align: center;
+    line-height: 0.64rem;
+}
+.finger-c{
+    width: 5.25rem;
+    height: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finger-c img{
+    width: 1.15rem;
+}
+.c-word{
+    width: 1.8rem;
+    height: 0.22rem;
+    font-size: 0.24rem;
+    color: rgba(0,0,0,0.8);
+    position: absolute;
+    right: -0.1rem;
+    bottom: 0.3rem;
+
+}

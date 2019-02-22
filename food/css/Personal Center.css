@@ -1,0 +1,187 @@
+body{
+    background: #eeeeee;
+}
+/*头部开始*/
+.header-box{
+    width: 100%;
+    height: 2rem;
+    background: rgb(14,207,152);
+}
+.header-content{
+    width: 93.6%;
+    height: 0.38rem;
+    margin: 0.25rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-L{
+    width: 0.36rem;
+    height: 0.36rem;
+    border-radius: 50%;
+    background: #ffffff;
+    line-height: 0.36rem;
+    text-align: center;
+}
+.content-L i{
+    display: block;
+    font-size: 0.2rem;
+    color: rgb(13,191,140);
+    transform: scale(0.8,0.8);
+}
+#edit{
+    font-size: 0.2rem;
+}
+.content-word{
+    /*width: 2.3rem;*/
+    /*height: 0.37rem;*/
+    font-size: 0.38rem;
+    line-height: 0.37rem;
+    color: #ffffff;
+    font-weight: 400;
+}
+/*头部结束*/
+/*个人信息开始*/
+.personal-box{
+    width: 100%;
+    height: 2.45rem;
+    padding-top: 1.7rem;
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+}
+.head-box{
+    width: 93.6%;
+    height: 1.57rem;
+    background: #ffffff;
+    box-shadow: 0 0.05rem 0.15rem rgba(0,0,0,0.14);
+    border-radius: 0.05rem;
+   /* position: absolute;
+    left: 0.24rem;
+    top: -0.4rem;*/
+    margin: 0 auto;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.head-head{
+    width: 0.98rem;
+    height: 0.98rem;
+    margin: 0.26rem;
+    border-radius: 50%;
+}
+.head-head img{
+    width: 0.98rem;
+}
+.green{
+    width: 0.23rem;
+    height: 0.23rem;
+    position: absolute;
+    left: 1.03rem;
+    bottom: 0.34rem;
+}
+.green img{
+    width: 0.23rem;
+}
+.head-word{
+    width: 78.3%;
+    height: 0.98rem;
+}
+.head-word p{
+    font-size: 0.22rem;
+    font-weight: 200;
+    color: rgba(0,0,0,0.8);
+}
+.head-word i{
+    font-size: 0.12rem;
+    color: rgba(0,0,0,0.8);
+}
+#head-word-p{
+    font-size: 0.14rem;
+    color: rgba(0,0,0,0.8);
+}
+.personal-content{
+    width: 5.06rem;
+    height: 0.48rem;
+    margin: 0 auto;
+    margin-top: 0.45rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-a{
+    width: 0.7rem;
+    height: 0.48rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#num{
+    font-size: 0.24rem;
+    color: rgb(14,207,152);
+}
+#words{
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.8);
+}
+/*个人信息结束*/
+/*列表开始*/
+.list-box{
+    width: 93.6%;
+    height: 0.98rem;
+    background: #ffffff;
+    border-radius: 0.05rem;
+    position: relative;
+    margin: 0.24rem auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list-img{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: rgb(14,207,152);
+    border-radius: 50%;
+    margin: 0.24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-img img{
+    width: 0.25rem;
+}
+.list-word{
+    width: 5.03rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    font-size: 0.2rem;
+    color: rgba(0,0,0,0.8);
+}
+#dizhi{
+    width: 0.39rem;
+}
+.DZ{
+    width: 0.56rem;
+    height: 0.25rem;
+    border-radius: 0.6rem;
+    background: rgb(14,207,152);
+    font-size: 0.2rem;
+    color: #ffffff;
+    line-height: 0.25rem;
+    text-align: center;
+    position: absolute;
+    right: 0.2rem;
+}
+.DZ i{
+    font-size: 0.2rem;
+    display: block;
+    transform: scale(0.8,0.8);
+}
+.DZ p{
+    transform: scale(0.8,0.8);
+}
+/*列表结束*/
